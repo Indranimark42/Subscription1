@@ -1,0 +1,99 @@
+html{
+    --color-grey-100: rgb(236, 210, 210);
+    --color-grey-400: rgb(42, 39, 39);
+    --color-grey-600: rgb(26, 25, 25);
+
+    --size-1:18px;
+    --size-4:40px;
+    --size-5:50px;
+
+
+
+    background-color: var(--color-grey-100);
+
+}
+
+body{
+    font-family: 'Young Serif', serif;
+    text-align: left;
+}
+
+.card-container{
+    padding: 20px 0px;
+    margin: 50px auto;
+    background-color: wheat;
+    width: 350px;
+    box-shadow: 3px 3px 3px black;
+    transition: background-color 0.5s ease-out;
+}
+
+.card-container:hover {
+    /*transform: scale(1.05);*/
+    /*transform: rotate(180deg);*/
+    background-color: bisque;
+}
+
+h1{
+    color: var(--color-grey-600);
+    text-align: left;
+    padding: 30px 50px 0px 50px;
+    margin: 10px auto;
+}
+
+h1:hover{
+    transform: scale(1.05);
+}
+
+.card-info{
+    color: var(--color-grey-400);
+    text-align: left;
+    padding: 0px 50px;
+    margin: 10px 0 30px 0;
+}
+
+.price{
+    font-size: var(--size-4);
+    text-align: center;
+    margin: 30px 0 10px 0;
+    font-weight: 600;
+    background-color: brown;
+    padding: auto 40px;
+    width:100%;
+}
+
+.price-info{
+    color: rgb(26, 25, 25);
+    text-align: center;
+    margin: 10px 0 30px 0;
+    padding: 0 50px;
+}
+
+.sub-details{
+    padding: 10px 30px;
+}
+
+.button-container{
+    color: brown;
+    margin: 30px 40px;
+    display: grid;
+    text-align: center;
+}
+
+.button-container a{
+    text-decoration: none;
+    color: brown;
+    border-style:groove;
+    border-color: brown;
+    padding: 20px 30px;
+    transition: background-color 0.5s ease-out;
+}
+
+/*.button-container:hover{
+    transform: scale(1.05);
+}*/
+
+.button-container a:hover{
+    background-color: rgb(170, 67, 67);
+    color: white;
+}
+
